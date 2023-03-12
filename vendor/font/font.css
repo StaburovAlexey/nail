@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Circe';
+  src: url(./circe.woff) format('woff'),
+    url(./circe.woff2) format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Vera Humana';
+  src: url(./Verah.woff) format('woff'),
+    url(./Verah.woff2) format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
