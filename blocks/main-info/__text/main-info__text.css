@@ -1,0 +1,11 @@
+.main-info__text {
+  font-family: 'Circe';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #FFFFFF;
+  opacity: 0.8;
+  max-width: 468px;
+  margin: 35px 0 35px;
+}

@@ -14,9 +14,9 @@
 @import url(../blocks/main-info/__text/main-info__text.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/social-link/social-link.css);
-@import url();
-@import url();
-@import url();
+@import url(../blocks/social-link/__img/social-link__img.css);
+@import url(../blocks/info/info.css);
+@import url(../blocks/header/__conection/header__conection.css);
 @import url();
 @import url();
 @import url();

@@ -1,0 +1,15 @@
+.main-info__button-entry {
+  width: 251px;
+  height: 69px;
+  background: #71165B;
+  box-shadow: 0px 22px 44px rgba(113, 22, 92, 0.3);
+  border: none;
+  font-family: 'Circe';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-right: 30px;
+}

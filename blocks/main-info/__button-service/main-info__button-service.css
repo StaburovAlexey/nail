@@ -1,0 +1,13 @@
+.main-info__button-service {
+  width: 251px;
+  height: 69px;
+  font-family: 'Circe';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  background-color: black;
+}
