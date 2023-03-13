@@ -1,6 +1,7 @@
 .header__conection {
   display: flex;
-  margin-top: 188px;
+  margin-top: 88px;
+
   gap: 151px;
   align-items: center;
 }

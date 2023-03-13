@@ -1,5 +1,10 @@
 .header {
-  margin: 30px 100px 0;
+  margin: 0 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   max-width: 1400px;
-  background-image: url(../../images/готовый.png);
+  background-image: url(../../images/photo_2023-03-13_08-45-34.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center right;
 }
