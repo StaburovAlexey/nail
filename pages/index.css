@@ -28,9 +28,9 @@
 @import url(../blocks/services/__info/services__info.css);
 @import url(../blocks/services/__nav/services__nav.css);
 @import url(../blocks/services/__table-price/services__table-price.css);
-@import url();
-@import url();
-@import url();
+@import url(../blocks/services/__button-service/services__button-service.css);
+@import url(../blocks/table-border-bottom/table-border-bottom.css);
+@import url(../blocks/text-align-right/text-align-right.css);
 @import url();
 @import url();
 @import url();

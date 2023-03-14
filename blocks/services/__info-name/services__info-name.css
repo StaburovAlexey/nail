@@ -1,0 +1,11 @@
+.services__info-name {
+  font-family: 'Vera Humana';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  opacity: 0.7;
+  margin: 0 0 20px;
+}

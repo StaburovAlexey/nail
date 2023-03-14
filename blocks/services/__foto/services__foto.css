@@ -1,0 +1,7 @@
+.services__foto {
+  width: 491px;
+  height: 491px;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}

@@ -1,0 +1,11 @@
+.services__info-text {
+  font-family: 'Circe';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  opacity: 0.6;
+  max-width: 488px;
+  margin: 0 0 60px;
+}

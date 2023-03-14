@@ -1,0 +1,12 @@
+.services__table-price {
+  font-family: 'Circe';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+  width: 100%;
+  border-collapse: collapse;
+}
