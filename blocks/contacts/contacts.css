@@ -1,0 +1,7 @@
+.contacts {
+  max-width: 1400px;
+  padding: 100px 100px;
+  background-color: #111;
+  display: flex;
+  justify-content: space-between;
+}

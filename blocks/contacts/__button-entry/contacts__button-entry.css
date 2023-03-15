@@ -1,16 +1,15 @@
-.services__button-entry {
-  width: 220px;
-  height: 60px;
+.contacts__button-entry {
   background: #71165B;
   box-shadow: 0px 22px 44px rgba(113, 22, 92, 0.3);
   font-family: 'Circe';
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 29px;
+  font-size: 18px;
+  line-height: 32px;
   text-transform: uppercase;
   color: #FFFFFF;
   border: none;
-  margin-right: 20px;
-  box-sizing: border-box;
+  width: 251px;
+  height: 69px;
+  margin-top: 100px;
 }

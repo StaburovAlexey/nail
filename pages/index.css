@@ -31,8 +31,21 @@
 @import url(../blocks/services/__button-service/services__button-service.css);
 @import url(../blocks/table-border-bottom/table-border-bottom.css);
 @import url(../blocks/text-align-right/text-align-right.css);
-@import url();
-@import url();
-@import url();
-@import url();
+@import url(../blocks/works/works.css);
+@import url(../blocks/works/__foto-album/works__foto-album.css);
+@import url(../blocks/works/__foto/works__foto.css);
+@import url(../blocks/works/__text/works__text.css);
+@import url(../blocks/works/__title/works__title.css);
+@import url(../blocks/works/__link/works__link.css);
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contacts/__adress/contacts__adress.css);
+@import url(../blocks/contacts/__phone/contacts__phone.css);
+@import url(../blocks/contacts/__button-entry/contacts__button-entry.css);
+@import url(../blocks/contacts/__social-link/contacts__social-link.css);
+@import url(../blocks/contacts/__text/contacts__text.css);
+@import url(../blocks/contacts/__title/contacts__title.css);
+@import url(../blocks/contacts/__working-hours/contacts__working-hours.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/author/author.css);
+
 

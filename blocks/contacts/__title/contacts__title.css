@@ -1,0 +1,10 @@
+.contacts__title {
+  font-family: 'Vera Humana';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0 0 15px 0 ;
+}

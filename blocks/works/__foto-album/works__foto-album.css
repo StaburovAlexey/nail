@@ -1,0 +1,8 @@
+.works__foto-album {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 440px));
+  object-fit: cover;
+  justify-content: center;
+  gap: 40px;
+
+}

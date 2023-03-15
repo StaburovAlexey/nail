@@ -1,7 +1,8 @@
 .services__foto {
-  width: 491px;
-  height: 491px;
-  display: block;
+  max-width: 491px;
+  max-height: 491px;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
   object-position: center;
+  overflow: hidden;
 }
