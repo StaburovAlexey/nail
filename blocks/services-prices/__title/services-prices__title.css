@@ -9,3 +9,12 @@
   margin: 0;
   max-width: 390px;
 }
+
+@media screen and (max-width:1024px) {
+  .services-prices__title {
+    max-width: 744px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+}

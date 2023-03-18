@@ -3,3 +3,9 @@
   padding: 50px 100px;
   background-color: #111;
 }
+
+@media screen and (max-width: 1024px) {
+  .services-prices {
+    padding: 100px 15px;
+  }
+}

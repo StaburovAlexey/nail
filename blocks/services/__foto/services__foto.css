@@ -1,8 +1,16 @@
 .services__foto {
-  max-width: 491px;
-  max-height: 491px;
-  aspect-ratio: 1 / 1;
+  max-width: 350px;
+  aspect-ratio: 1/1;
   object-fit: cover;
   object-position: center;
-  overflow: hidden;
+  display: block;
+
+}
+
+@media screen and (max-width: 1024px) {
+  .services__foto {
+    max-width: 744px;
+    aspect-ratio: 1/1;
+    display: none;
+  }
 }

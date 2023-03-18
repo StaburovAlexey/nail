@@ -11,15 +11,16 @@
 
 <body class="page">
   <header class="header">
-    <nav class="header__nav">
+    <nav class="nav">
       <img src="./images/photo_2023-03-12_19-23-59_preview_rev_1.png" alt="" class="header__logo">
-      <ul class="header__nav-links">
+      <ul class="nav__links">
         <li>Услуги</li>
         <li>Мастера</li>
         <li>Отзывы</li>
         <li>Работы</li>
         <li>Контакты</li>
       </ul>
+      <button class="header__nav-burger"></button>
     </nav>
     <div class="info">
       <div class="header__social-links">
@@ -45,6 +46,7 @@
     <section class="services-prices">
       <h2 class="services-prices__title">услуги и цены</h2>
       <div class="services">
+        <button class="select">комплекс "Minimal"<img src="./images/icoarrow.png" alt="" class="select__img"></button>
         <nav class="services__nav">
           <button class="services__button-service">комплекс "Minimal"<img src="./images/iconCross.svg" alt=""></button>
           <button class="services__button-service">комплекс "Standart"<img src="./images/iconCross.svg" alt=""></button>
@@ -53,10 +55,19 @@
         </nav>
         <div class="services__info">
           <h3 class="services__info-name">комплекс "Minimal"</h3>
-          <p class="services__info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas sequi veniam
+          <!--может пригодиться, пока хз
+            <p class="services__info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas sequi veniam
             quibusdam minus rerum! Ullam cum ipsam, vel quasi sequi, natus omnis deserunt eum ex voluptatem ut, cumque
-            fugiat excepturi.</г>
-          <table class="services__table-price">
+            fugiat excepturi.</p>-->
+          <ul class="services__list">
+            <li>Снятие гель-лака</li>
+            <li>Комбинированный маникюр без покрытия</li>
+            <li>Коррекция формы</li>
+            <li>Покрытие прозрачным лаком(по желанию)</li>
+            <li>Уход(крем/масло)</li>
+          </ul>
+          <!--может пригодиться, пока хз
+            <table class="services__table-price">
             <tr>
               <td class="table-border-bottom">Комплекс: снятие + маникюр + покрытие "однотон"</td>
               <td class="table-border-bottom text-align-right">1700</td>
@@ -81,7 +92,12 @@
               <td class="table-border-bottom">Френч</td>
               <td class="table-border-bottom text-align-right">300</td>
             </tr>
-          </table>
+          </table>-->
+          <div>
+            <img src="./images/minimal1.jpg" alt="" class="services__foto-album">
+            <img src="./images/minimal2.jpg" alt="" class="services__foto-album">
+            <img src="./images/minimal3.jpg" alt="" class="services__foto-album">
+          </div>
           <button class="services__button-entry">Записаться</button>
         </div>
         <img src="./images/manic.jpg" alt="" class="services__foto">
@@ -133,9 +149,9 @@
     </section>
   </main>
   <footer class="footer">
-    <nav class="header__nav">
+    <nav class="nav">
       <img src="./images/photo_2023-03-12_19-23-59_preview_rev_1.png" alt="" class="header__logo">
-      <ul class="header__nav-links">
+      <ul class="nav__links">
         <li>Услуги</li>
         <li>Мастера</li>
         <li>Отзывы</li>

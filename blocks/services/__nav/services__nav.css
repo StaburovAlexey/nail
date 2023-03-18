@@ -5,3 +5,9 @@
   gap: 45px;
   padding-right: 25px;
 }
+
+@media screen and (max-width: 1024px) {
+  .services__nav {
+    display: none;
+  }
+}

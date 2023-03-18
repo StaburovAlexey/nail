@@ -6,3 +6,12 @@
   background-repeat: no-repeat;
   background-position: center right;
 }
+
+@media screen and (max-width: 1024px){
+  .header {
+    max-width: 744px;
+    padding: 30px 15px 45px;
+    margin: 0 auto;
+  }
+
+}

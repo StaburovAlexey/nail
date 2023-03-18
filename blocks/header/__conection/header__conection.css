@@ -5,3 +5,9 @@
   gap: 151px;
   align-items: center;
 }
+
+@media screen and (max-width: 1024px){
+  .header__conection {
+    justify-content: space-between;
+  }
+}

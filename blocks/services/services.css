@@ -1,6 +1,15 @@
 .services {
   width: 100%;
-  margin-top: 45px;
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
+  margin-top: 45px
+}
+
+@media screen and (max-width: 1024px) {
+  .services {
+    flex-direction: column;
+    justify-content: center;
+    margin: 45px auto 0;
+    max-width: 744px;
+  }
 }
