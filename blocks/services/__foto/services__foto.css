@@ -1,5 +1,5 @@
 .services__foto {
-  max-width: 350px;
+  width: 450px;
   aspect-ratio: 1/1;
   object-fit: cover;
   object-position: center;

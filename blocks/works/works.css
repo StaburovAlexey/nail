@@ -3,3 +3,10 @@
   padding: 100px 100px;
   background: #111111;
 }
+
+@media screen and (max-width:1024px) {
+  .works {
+    padding: 50px 15px;
+  }
+
+}

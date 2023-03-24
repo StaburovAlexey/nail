@@ -1,0 +1,11 @@
+.maps {
+  width: 600px;
+  height: 600px;
+}
+
+@media screen and (max-width: 744px) {
+  .maps {
+    width: 320px;
+    height: 320px;
+  }
+}

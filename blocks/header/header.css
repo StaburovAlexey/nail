@@ -7,11 +7,15 @@
   background-position: center right;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .header {
-    max-width: 744px;
     padding: 30px 15px 45px;
     margin: 0 auto;
   }
 
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+  }
 }

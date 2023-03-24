@@ -7,3 +7,26 @@
   gap: 40px;
 
 }
+
+@media screen and (max-width: 1600px){
+  .works__foto-album {
+    grid-template-columns: repeat(auto-fill, minmax(290px, 340px));
+  }
+
+}
+
+@media screen and (max-width: 1600px){
+  .works__foto-album {
+    grid-template-columns: repeat(auto-fill, minmax(290px, 240px));
+  }
+
+}
+
+
+@media screen and (max-width: 980px){
+  .works__foto-album {
+    grid-template-columns: repeat(auto-fill, minmax(290px, 640px));
+  }
+
+}
+

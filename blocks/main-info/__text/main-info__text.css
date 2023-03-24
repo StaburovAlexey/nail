@@ -9,3 +9,9 @@
   max-width: 468px;
   margin: 35px 0 35px;
 }
+
+@media screen and (max-width: 768px) {
+  .main-info__text {
+  margin: 25px 0 25px;
+  }
+}

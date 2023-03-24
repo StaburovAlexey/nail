@@ -1,0 +1,14 @@
+.header__img-conection {
+  display: none;
+}
+
+@media screen and (max-width:768px) {
+  .header__img-conection {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+    object-position: center;
+    display: block;
+  }
+
+}

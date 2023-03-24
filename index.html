@@ -13,7 +13,7 @@
   <header class="header">
     <nav class="nav">
       <img src="./images/photo_2023-03-12_19-23-59_preview_rev_1.png" alt="" class="header__logo">
-      <ul class="nav__links">
+      <ul class="nav__links-header">
         <li>Услуги</li>
         <li>Мастера</li>
         <li>Отзывы</li>
@@ -40,6 +40,7 @@
       <p class="header__adress">г. Рязань, ул. Павлова, д.29
       </p>
       <p class="header__phone">+7 (920) 980 8844</p>
+      <img src="./images/telegram_icon.png" alt="" class="header__img-conection">
     </div>
   </header>
   <main>
@@ -48,64 +49,40 @@
       <div class="services">
         <button class="select">комплекс "Minimal"<img src="./images/icoarrow.png" alt="" class="select__img"></button>
         <nav class="services__nav">
-          <button class="services__button-service">комплекс "Minimal"<img src="./images/iconCross.svg" alt=""></button>
-          <button class="services__button-service">комплекс "Standart"<img src="./images/iconCross.svg" alt=""></button>
-          <button class="services__button-service">комплекс "Maximum"<img src="./images/iconCross.svg" alt=""></button>
-          <button class="services__button-service">педикюр<img src="./images/iconCross.svg" alt=""></button>
+          <button class="services__button-service btn-minimal" type="button">комплекс "Minimal"<img
+              src="./images/iconCross.svg" alt=""></button>
+          <button class="services__button-service btn-standart" type="button">комплекс "Standart"<img
+              src="./images/iconCross.svg" alt=""></button>
+          <button class="services__button-service btn-maximum" type="button">комплекс "Maximum"<img
+              src="./images/iconCross.svg" alt=""></button>
+          <button class="services__button-service btn-pedicure" type="button">педикюр<img src="./images/iconCross.svg"
+              alt=""></button>
         </nav>
-        <div class="services__info">
-          <h3 class="services__info-name">комплекс "Minimal"</h3>
-          <!--может пригодиться, пока хз
-            <p class="services__info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas sequi veniam
-            quibusdam minus rerum! Ullam cum ipsam, vel quasi sequi, natus omnis deserunt eum ex voluptatem ut, cumque
-            fugiat excepturi.</p>-->
-          <ul class="services__list">
-            <li>Снятие гель-лака</li>
-            <li>Комбинированный маникюр без покрытия</li>
-            <li>Коррекция формы</li>
-            <li>Покрытие прозрачным лаком(по желанию)</li>
-            <li>Уход(крем/масло)</li>
-          </ul>
-          <!--может пригодиться, пока хз
-            <table class="services__table-price">
-            <tr>
-              <td class="table-border-bottom">Комплекс: снятие + маникюр + покрытие "однотон"</td>
-              <td class="table-border-bottom text-align-right">1700</td>
-            </tr>
-            <tr>
-              <td class="table-border-bottom">Маникюр женский</td>
-              <td class="table-border-bottom text-align-right">1000</td>
-            </tr>
-            <tr>
-              <td class="table-border-bottom">Дизайн</td>
-              <td class="table-border-bottom text-align-right">от 100</td>
-            </tr>
-            <tr>
-              <td class="table-border-bottom">Покрытие обычным лаком + сушка</td>
-              <td class="table-border-bottom text-align-right">300</td>
-            </tr>
-            <tr>
-              <td class="table-border-bottom">Ремонт(наращивание)</td>
-              <td class="table-border-bottom text-align-right">от 200</td>
-            </tr>
-            <tr>
-              <td class="table-border-bottom">Френч</td>
-              <td class="table-border-bottom text-align-right">300</td>
-            </tr>
-          </table>-->
-          <div>
-            <img src="./images/minimal1.jpg" alt="" class="services__foto-album">
-            <img src="./images/minimal2.jpg" alt="" class="services__foto-album">
-            <img src="./images/minimal3.jpg" alt="" class="services__foto-album">
+        <div class="template-list">
+          <div class="services__info minimal">
+            <h3 class="services__info-name minimal">комплекс "Minimal"</h3>
+            <ul class="services__list">
+              <li>Снятие гель-лака</li>
+              <li>Комбинированный маникюр без покрытия</li>
+              <li>Коррекция формы</li>
+              <li>Покрытие прозрачным лаком(по желанию)</li>
+              <li>Уход(крем/масло)</li>
+            </ul>
+            <p class="services__price">1000р</p>
+            <div>
+              <img src="./images/minimal1.jpg" alt="" class="services__foto-album">
+              <img src="./images/minimal2.jpg" alt="" class="services__foto-album">
+              <img src="./images/minimal3.jpg" alt="" class="services__foto-album">
+            </div>
+            <button class="services__button-entry">Записаться</button>
           </div>
-          <button class="services__button-entry">Записаться</button>
         </div>
         <img src="./images/manic.jpg" alt="" class="services__foto">
       </div>
     </section>
     <section class="works">
       <h2 class="works__title">Наши работы</h2>
-      <p class="works__text"> - Больше работ у нас в <a href="http://" class="works__link">Instagram</a></p>
+      <p class="works__text"> - Больше работ у нас в <a href="#" class="works__link">Instagram</a></p>
       <div class="works__foto-album">
         <img src="./images/foto1.jpg" alt="" class="works__foto">
         <img src="./images/foto2.jpg" alt="" class="works__foto">
@@ -127,7 +104,7 @@
         </div>
         <div class="contacts__working-hours">
           <h2 class="contacts__title">время работы</h2>
-          <p class="contacts__text">пн-пт 7:00 - 23:00</p>
+          <p class="contacts__text">пн-пт: &nbsp;7:00 - 23:00</p>
           <p class="contacts__text">сб-вс: 11:00 - 22:00</p>
         </div>
         <div class="contacts__social-link">
@@ -138,18 +115,18 @@
         </div>
         <button class="contacts__button-entry">записаться</button>
       </div>
-      <div style="position:relative;overflow:hidden;margin-left:20px;"><a
+      <div style="position:relative;overflow:hidden;"><a
           href="https://yandex.ru/maps/org/cat_claws/75094318699/?utm_medium=mapframe&utm_source=maps"
           style="color:#eee;font-size:12px;position:absolute;top:0px;">Cat claws</a><a
           href="https://yandex.ru/maps/11/ryazan/category/nail_salon/20476284572/?utm_medium=mapframe&utm_source=maps"
-          style="color:#eee;font-size:12px;position:absolute;top:14px;">Ногтевая студия в Рязани</a><iframe
-          src="https://yandex.ru/map-widget/v1/?from=tabbar&ll=39.726655%2C54.632113&mode=search&oid=75094318699&ol=biz&sll=39.726655%2C54.632113&source=serp_navig&text=cat%20claws%20%D1%80%D1%8F%D0%B7%D0%B0%D0%BD%D1%8C&z=15"
-          width="800" height="600" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+          style="color:#eee;font-size:12px;position:absolute;top:14px;">Ногтевая студия в Рязани</a><iframe class="maps"
+          src="https://yandex.ru/map-widget/v1/?from=tabbar&ll=39.726655%2C54.632113&mode=search&oid=75094318699&ol=biz&sll=39.726655%2C54.632113&source=serp_navig&text=cats%20claws%20%D1%80%D1%8F%D0%B7%D0%B0%D0%BD%D1%8C&z=15"
+          width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
       </div>
     </section>
   </main>
   <footer class="footer">
-    <nav class="nav">
+    <nav class="nav footer-nav">
       <img src="./images/photo_2023-03-12_19-23-59_preview_rev_1.png" alt="" class="header__logo">
       <ul class="nav__links">
         <li>Услуги</li>
@@ -161,6 +138,96 @@
     </nav>
     <p class="author">Сайт сделан: Стабуров Алексей</p>
   </footer>
+  <div class="popup">
+    <div class="popup__container">
+      <button class="popup__btn-close" type="button"></button>
+      <ul class="popup__links">
+        <li>Услуги</li>
+        <li>Мастера</li>
+        <li>Отзывы</li>
+        <li>Работы</li>
+        <li>Контакты</li>
+      </ul>
+    </div>
+  </div>
+  <template id="minimal">
+    <div class="services__info minimal">
+      <h3 class="services__info-name minimal">комплекс "Minimal"</h3>
+      <ul class="services__list">
+        <li>Снятие гель-лака</li>
+        <li>Комбинированный маникюр без покрытия</li>
+        <li>Коррекция формы</li>
+        <li>Покрытие прозрачным лаком(по желанию)</li>
+        <li>Уход(крем/масло)</li>
+      </ul>
+      <p class="services__price">1000р</p>
+      <div>
+        <img src="./images/minimal1.jpg" alt="" class="services__foto-album">
+        <img src="./images/minimal2.jpg" alt="" class="services__foto-album">
+        <img src="./images/minimal3.jpg" alt="" class="services__foto-album">
+      </div>
+      <button class="services__button-entry">Записаться</button>
+    </div>
+  </template>
+  <template id="standart">
+    <div class="services__info standart">
+      <h3 class="services__info-name">комплекс "Standart"</h3>
+      <ul class="services__list">
+        <li>Снятие гель-лака</li>
+        <li>Комбинированный маникюр без покрытия</li>
+        <li>Однотонное покрытие</li>
+        <li>Укрепление: гель/база</li>
+        <li>Ремонт мелких трещин</li>
+      </ul>
+      <p class="services__price">1700р</p>
+      <div>
+        <img src="./images/minimal1.jpg" alt="" class="services__foto-album">
+        <img src="./images/minimal2.jpg" alt="" class="services__foto-album">
+        <img src="./images/minimal3.jpg" alt="" class="services__foto-album">
+      </div>
+      <button class="services__button-entry">Записаться</button>
+    </div>
+  </template>
+  <template id="maximum">
+    <div class="services__info maximum">
+      <h3 class="services__info-name">комплекс "Maximum"</h3>
+      <ul class="services__list">
+        <li>Снятие гель-лака</li>
+        <li>Комбинированный маникюр без покрытия</li>
+        <li>Однотонное покрытие</li>
+        <li>Укрепление: гель/база</li>
+        <li>Поднятие «клюющих» ногтей</li>
+        <li>Ремонт (всеобъемлющий)</li>
+        <li>Исправление архитектуры ноготка</li>
+      </ul>
+      <p class="services__price">1950р</p>
+      <div>
+        <img src="./images/minimal1.jpg" alt="" class="services__foto-album">
+        <img src="./images/minimal2.jpg" alt="" class="services__foto-album">
+        <img src="./images/minimal3.jpg" alt="" class="services__foto-album">
+      </div>
+      <button class="services__button-entry">Записаться</button>
+    </div>
+  </template>
+  <template id="pedicure">
+    <div class="services__info pedicure">
+      <h3 class="services__info-name">Педикюр</h3>
+      <ul class="services__list">
+        <li>СКомплекс Минимал: SMART педикюр (обработка стопы и пальцев) БЕЗ (!) покрытия – 1800.</li>
+        <li>Комплекс Стандарт: SMART педикюр (обработка стопы и пальцев) + покрытие гель-лак – 2000.</li>
+        <li>Комплекс «Сложная стопа»: SMART педикюр (обработка стопы, включающая в себя удаление трещин +
+          обработка
+          пальцев) + покрытие гель-лак – 2400. </li>
+      </ul>
+      <div>
+        <img src="./images/minimal1.jpg" alt="" class="services__foto-album">
+        <img src="./images/minimal2.jpg" alt="" class="services__foto-album">
+        <img src="./images/minimal3.jpg" alt="" class="services__foto-album">
+      </div>
+      <button class="services__button-entry">Записаться</button>
+    </div>
+  </template>
+  <script src="./script/script.js"></script>
 </body>
 
 </html>

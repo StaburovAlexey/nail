@@ -1,8 +1,9 @@
 .services {
   width: 100%;
+  min-height: 500px;
   display: flex;
   justify-content:space-between;
-  margin-top: 45px
+  margin-top: 45px;
 }
 
 @media screen and (max-width: 1024px) {

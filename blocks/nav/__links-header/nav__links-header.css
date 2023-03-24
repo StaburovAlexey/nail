@@ -1,7 +1,8 @@
-.nav__links {
+.nav__links-header {
   width: 485px;
   color: #fff;
   text-shadow: 2px 2px 2px black;
+
   list-style: none;
   padding: 0;
   margin: 0 auto;
@@ -15,12 +16,9 @@
   align-items: center;
 }
 
-@media screen and (max-width: 744px) {
-  .nav__links {
-    flex-direction: column;
-    width: 100%;
-    align-items: start;
-    gap: 12px;
-    margin-top: 20px;
+@media screen and (max-width: 1024px) {
+  .nav__links-header {
+    display: none;
   }
+
 }

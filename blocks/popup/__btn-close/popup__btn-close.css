@@ -1,0 +1,14 @@
+.popup__btn-close {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  background-image: url(../../../images/iconCross.svg);
+  border: none;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 30px;
+  right: 15px;
+  transform: rotate(45deg);
+
+}

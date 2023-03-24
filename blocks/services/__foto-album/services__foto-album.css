@@ -1,5 +1,5 @@
 .services__foto-album {
-    max-width: 100px;
+    max-width: 80px;
     aspect-ratio: 1 / 1;
     object-fit: cover;
 }

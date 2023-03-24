@@ -1,7 +1,12 @@
 .main-info__header {
   width: 100%;
-  height: 110px;
   object-fit: cover;
   display: block;
 
+}
+
+@media screen and (max-width: 768px) {
+  .main-info__header {
+
+  }
 }

@@ -11,3 +11,9 @@
   border: 1px solid #FFFFFF;
   background-color: black;
 }
+
+@media screen and (max-width: 768px) {
+  .main-info__button-service {
+    width: 290px;
+  }
+}

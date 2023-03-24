@@ -1,0 +1,17 @@
+.contacts__info {
+  max-width: 400px;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 905px) {
+  .contacts__info {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 140px 140px;
+    grid-template-rows: 100px 140px 100px;
+    justify-content: center;
+    gap: 10px;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+}

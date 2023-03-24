@@ -13,3 +13,10 @@
   color: #FFFFFF;
   margin-right: 30px;
 }
+
+@media screen and (max-width: 768px) {
+  .main-info__button-entry {
+    margin: 0 0 15px 0;
+    width: 290px;
+  }
+}

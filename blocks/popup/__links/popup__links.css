@@ -1,0 +1,15 @@
+.popup__links {
+  color: #fff;
+  list-style: none;
+  padding: 0;
+  font-family: 'Circe', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 76px 0 0 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
+}

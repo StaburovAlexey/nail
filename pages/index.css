@@ -3,11 +3,11 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__adress/header__adress.css);
 @import url(../blocks/header/__logo/header__logo.css);
-@import url(../blocks/header/__nav-links/header__nav-links.css);
 @import url(../blocks/header/__nav/header__nav.css);
 @import url(../blocks/header/__phone/header__phone.css);
 @import url(../blocks/header/__social-links/header__social-links.css);
 @import url(../blocks/header/__nav-burger/header__nav-burger.css);
+@import url(../blocks/header/__img-conection/header__img-conection.css);
 @import url(../blocks/main-info/main-info.css);
 @import url(../blocks/main-info/__button-entry/main-info__button-entry.css);
 @import url(../blocks/main-info/__button-service/main-info__button-service.css);
@@ -50,9 +50,17 @@
 @import url(../blocks/contacts/__text/contacts__text.css);
 @import url(../blocks/contacts/__title/contacts__title.css);
 @import url(../blocks/contacts/__working-hours/contacts__working-hours.css);
+@import url(../blocks/contacts/__info/contacts__info.css);
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer-nav/footer-nav.css);
 @import url(../blocks/author/author.css);
 @import url(../blocks/nav/nav.css);
+@import url(../blocks/nav/__links-header/nav__links-header.css);
 @import url(../blocks/nav/__links/nav__links.css);
-
+@import url(../blocks/maps/maps.css);
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/_active/popup_active.css);
+@import url(../blocks/popup/__links/popup__links.css);
+@import url(../blocks/popup/__btn-close/popup__btn-close.css);
+@import url(../blocks/popup/__container/popup__container.css);
 

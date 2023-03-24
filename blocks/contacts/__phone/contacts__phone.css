@@ -1,3 +1,9 @@
 .contacts__phone {
   margin-top: 45px;
 }
+
+@media screen and (max-width: 905px) {
+  .contacts__phone {
+    margin-top: 0;
+  }
+}

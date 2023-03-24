@@ -11,3 +11,10 @@
     justify-content: space-between;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .header__conection {
+    margin-top: 55px;
+    gap: 48px;
+  }
+}
