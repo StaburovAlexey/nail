@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
@@ -20,7 +20,7 @@
         <li>Работы</li>
         <li>Контакты</li>
       </ul>
-      <button class="header__nav-burger"></button>
+      <button class="header__nav-burger" type="button"></button>
     </nav>
     <div class="info">
       <div class="header__social-links">
@@ -47,7 +47,16 @@
     <section class="services-prices">
       <h2 class="services-prices__title">услуги и цены</h2>
       <div class="services">
-        <button class="select">комплекс "Minimal"<img src="./images/icoarrow.png" alt="" class="select__img"></button>
+        <button class="select open-select" type="button">комплекс "Minimal"
+          <!--<img src="./images/icoarrow.png" alt=""
+            class="select__img">-->
+          </button>
+        <div class="select__nav">
+          <button class="select minimal-select" type="button">комплекс "Minimal"</button>
+          <button class="select standart-select" type="button">комплекс "Standart"</button>
+          <button class="select maximum-select" type="button">комплекс "Maximum"</button>
+          <button class="select pedicure-select" type="button">педикюр</button>
+        </div>
         <nav class="services__nav">
           <button class="services__button-service btn-minimal" type="button">комплекс "Minimal"<img
               src="./images/iconCross.svg" alt=""></button>
@@ -58,23 +67,11 @@
           <button class="services__button-service btn-pedicure" type="button">педикюр<img src="./images/iconCross.svg"
               alt=""></button>
         </nav>
-        <div class="template-list">
-          <div class="services__info minimal">
-            <h3 class="services__info-name minimal">комплекс "Minimal"</h3>
-            <ul class="services__list">
-              <li>Снятие гель-лака</li>
-              <li>Комбинированный маникюр без покрытия</li>
-              <li>Коррекция формы</li>
-              <li>Покрытие прозрачным лаком(по желанию)</li>
-              <li>Уход(крем/масло)</li>
-            </ul>
-            <p class="services__price">1000р</p>
-            <div>
-              <img src="./images/minimal1.jpg" alt="" class="services__foto-album">
-              <img src="./images/minimal2.jpg" alt="" class="services__foto-album">
-              <img src="./images/minimal3.jpg" alt="" class="services__foto-album">
-            </div>
-            <button class="services__button-entry">Записаться</button>
+        <div class="template-list"></div>
+        <div class="popup-img">
+          <div class="popup-img__container">
+            <img src="#" alt="" class="popup-img__img">
+            <button class="popup-img__btn-close" type="button"></button>
           </div>
         </div>
         <img src="./images/manic.jpg" alt="" class="services__foto">
@@ -181,9 +178,9 @@
       </ul>
       <p class="services__price">1700р</p>
       <div>
-        <img src="./images/minimal1.jpg" alt="" class="services__foto-album">
-        <img src="./images/minimal2.jpg" alt="" class="services__foto-album">
-        <img src="./images/minimal3.jpg" alt="" class="services__foto-album">
+        <img src="./images/IMG_7794.JPG" alt="" class="services__foto-album">
+        <img src="./images/IMG_7807.JPG" alt="" class="services__foto-album">
+        <img src="./images/photo_2023-03-14_22-43-36.jpg" alt="" class="services__foto-album">
       </div>
       <button class="services__button-entry">Записаться</button>
     </div>
@@ -213,11 +210,13 @@
     <div class="services__info pedicure">
       <h3 class="services__info-name">Педикюр</h3>
       <ul class="services__list">
-        <li>СКомплекс Минимал: SMART педикюр (обработка стопы и пальцев) БЕЗ (!) покрытия – 1800.</li>
-        <li>Комплекс Стандарт: SMART педикюр (обработка стопы и пальцев) + покрытие гель-лак – 2000.</li>
+        <li>СКомплекс Минимал: SMART педикюр (обработка стопы и пальцев) БЕЗ (!) покрытия –<br> <span
+            class="services__span">1800р</span></li>
+        <li>Комплекс Стандарт: SMART педикюр (обработка стопы и пальцев) + покрытие гель-лак – <span
+            class="services__span">2000р</span></li>
         <li>Комплекс «Сложная стопа»: SMART педикюр (обработка стопы, включающая в себя удаление трещин +
           обработка
-          пальцев) + покрытие гель-лак – 2400. </li>
+          пальцев) + покрытие гель-лак – <span class="services__span">2400р</span>. </li>
       </ul>
       <div>
         <img src="./images/minimal1.jpg" alt="" class="services__foto-album">
@@ -227,6 +226,12 @@
       <button class="services__button-entry">Записаться</button>
     </div>
   </template>
+  <div class="popup-img">
+    <div class="popup-img__container">
+      <img src="#" alt="" class="popup-img__img">
+      <button class="popup-img__btn-close" type="button"></button>
+    </div>
+  </div>
   <script src="./script/script.js"></script>
 </body>
 

@@ -1,0 +1,4 @@
+.select__nav_active {
+  display: block;
+  background-image: url(../../../../images/icoarrow180.png);
+}

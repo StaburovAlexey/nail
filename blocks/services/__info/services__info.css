@@ -8,7 +8,7 @@
 
 @media screen and (max-width: 1024px) {
   .services__info {
-    margin: 0 auto;
+    margin: 30px auto 0;
     padding: 0;
     border: none;
     display: flex;

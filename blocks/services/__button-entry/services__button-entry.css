@@ -16,7 +16,7 @@
   display: block;
 }
 
-@media screen and (max-width: 744px) {
+@media screen and (max-width: 1024px) {
   .services__button-entry {
     margin-right: 0;
     margin-top: 20px;
